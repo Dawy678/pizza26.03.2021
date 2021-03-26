@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="pizza" onchange="pobieranie(value)">
+        <option>Pizza</option>
+        <option value="Hawajska">Hawajska</option>
+        <option value="Margarita">Margarita</option>
+        <option value="Chłopska">Chłopska</option>
+        <option value="Meksykańska">Meksykańska</option>
+        <option value="Sulejowska">Sulejowska</option>
+        <option value="Polska">Polska</option>
+        <option value="Czeska">Czeska</option>
+        <option value="Angielska">Angielska</option>
+        <option value="Francuska">Francuska</option>
+        <option value="Ostra">Ostra</option>
+        <option value="Dobra">Dobra</option>
+        <option value="Śląska">Śląska</option>
+        <option value="Światowa">Światowa</option>
+        <option value="Wojenna">Wojenna</option>
+        <option value="Bagienna">Bagienna</option>
+        <option value="Ziemniaczana">Ziemniaczana</option>
+    </select>
+
+
+    <input type="text" placeholder="Imię" id="inp1" onchange="changeImie()">
+    <input type="text" placeholder="Nazwisko" id="inp2" onchange="changeNazwisko()">
+    <input type="text" placeholder="Telefon" id="inp3" onchange="changeTelefon(value)">
+    <button onclick="getImie(), getNazwisko(), getTelefon(), pizza()">Wyślij</button>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
